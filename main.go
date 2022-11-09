@@ -1,5 +1,6 @@
 package main
 
+// #cgo LDFLAGS: -lm
 // #include "perlin.h"
 import "C"
 
